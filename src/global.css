@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: red;
-    color: black;
+    color: #FFFFFF;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    background-color: #1F1F1F;
+}
+
+body a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
