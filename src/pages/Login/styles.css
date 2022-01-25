@@ -1,0 +1,31 @@
+body{
+  background-color: #1F1F1F;
+  color: white;
+  font-size: 20px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.formatacao_texto{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.proesc{
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.academy{
+  line-height: 32px;
+  color: #5FB023;
+  text-shadow: 3px 0px 1px rgba(255, 255, 255, 0.8);
+}
