@@ -13,7 +13,6 @@ body{
 }
 
 .formatacao_texto{
-  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -28,4 +27,20 @@ body{
   line-height: 32px;
   color: #5FB023;
   text-shadow: 3px 0px 1px rgba(255, 255, 255, 0.8);
+}
+
+.formulario input{
+  display: block;
+  margin-top: 1vh;
+  height: 7vh;
+  width: 65%;
+  background-color: #1F1F1F;
+  color: white;
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.formulario input::placeholder{
+  color: white;
 }
