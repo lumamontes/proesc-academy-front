@@ -1,0 +1,31 @@
+.cardContainer{
+    width: 250px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+}
+.cardContainer .cardContent{
+    background-color: #183754;
+    padding: 0.5rem;
+}
+
+.cardContainer .cardContent span{
+    color: #5FB023;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cardContainer .cardContent p{
+    font-size: 12px;
+} 
+
+.cardContainer .cardContent > div {
+    display: flex;
+    justify-content: space-around;
+
+}
+.cardContent > div > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
