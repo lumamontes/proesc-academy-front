@@ -1,32 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 body{
   background-color: #1F1F1F;
   color: white;
-  font-size: 20px;
+  font-size: 100%;
 }
 
-.flex{
+.conteudo{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   margin-top: 60px;
+  gap: 7px;
 }
 
-.formatacao_texto{
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-}
-
-.proesc{
+.titulo-proesc{
   line-height: 72px;
   color: #FFFFFF;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  color: #FFF2E
 }
 
-.academy{
+.subtitulo-academy{
   line-height: 32px;
   color: #5FB023;
-  text-shadow: 3px 0px 1px rgba(255, 255, 255, 0.8);
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
 }
 
 .formulario input{
@@ -43,4 +45,21 @@ body{
 
 .formulario input::placeholder{
   color: white;
+}
+
+.button-login {
+  background-color: #448b0d;
+  width: 65%;
+  height: 7vh;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  border-top: 500px;
+}
+.button-login:hover{
+  background-color: #5FB023;
 }
