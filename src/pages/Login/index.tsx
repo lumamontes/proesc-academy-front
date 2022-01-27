@@ -4,14 +4,14 @@ import './styles.css';
 function Login() {
   return (
     <>
-      <div className="flex formatacao_texto">
-        <div className="proesc">Proesc</div>
-        <div className="academy">Academy</div>
-      </div>
-      <form className="formulario flex">
+      <main className="conteudo">
+        <div className="titulo-proesc">Proesc</div>
+        <div className="subtitulo-academy">Academy</div>
+      </main>
+      <form className="formulario conteudo">
         <input type="email" name="name" placeholder='Email' />
         <input type="password" name="password" placeholder='Senha' />
-        <input type="submit" value="Login com o Proesc" />
+        <button className='button-login' type="submit">Login com o Proesc</button>
       </form>
     </>
   );
